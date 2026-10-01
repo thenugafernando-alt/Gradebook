@@ -15,27 +15,23 @@ public class Main {
 			System.out.println("Enter your grade");
 			number = in.nextInt(); 
 			
-			
-		}
-		else{
+		
+			if (number > 100){
 			
 			System.out.println("Not valid");
 		}
 		
 		
 		
+            else if  (number == -1) {
+			
+			System.out.println("All done");
+			
+		}
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		}
 		
 		
 		
